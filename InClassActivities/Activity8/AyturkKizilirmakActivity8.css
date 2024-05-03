@@ -1,0 +1,22 @@
+#tableID{
+    width:40%;
+    margin: 1%;
+}
+
+tr > td {
+    padding-bottom: 2%;
+}
+
+#submitButtonn {
+    margin-top: 5%; 
+}
+
+table tr td input:invalid{
+    border: none;
+    outline: 3px solid;
+    border-radius: 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}

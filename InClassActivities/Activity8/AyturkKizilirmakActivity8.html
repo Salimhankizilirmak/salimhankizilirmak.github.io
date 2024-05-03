@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 8</title>
+    <link rel="stylesheet" href="AyturkKizilirmakActivity8.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="AyturkKizilirmakActivity8.js"></script>
+    
+
+</head>
+<body>
+    <form>
+        <table id="tableID">
+            <tr>
+                <td>
+                   What programming language do you know?
+                </td>
+                <td>
+                    <input type="text" id="pl" name="programmingLanguage" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                   What is your birthday
+                </td>
+                <td>
+                    <input type="text" id="birthday" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email Address
+                </td>
+                <td>
+                    <input type="email" id="email" required  placeholder="Enter a valid email address">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Website
+                </td>
+                <td>
+                    <input type="url" name="website" required pattern="https?://.+">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit" id="submitButton">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
