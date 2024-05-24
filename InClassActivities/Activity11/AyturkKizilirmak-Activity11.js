@@ -3,7 +3,7 @@ $(document).ready(function() {
     function fetchSpeakerData(file) {
       $.getJSON("json_files/" + file + ".json", function(data) {
         
-        $("main").empty();
+        $(".dialog").empty();
   
         data.speakers.forEach(function(speaker) {
           var title = $("<h1>").text(speaker.title);
@@ -11,7 +11,7 @@ $(document).ready(function() {
           var month = $("<h2>").html(speaker.month + "<br>" + speaker.speaker);
           var description = $("<p>").text(speaker.text);
   
-          $("main").append(title, image, month, description);
+          $(".dialog").append(title, image, month, description);
         });
       });
     }
