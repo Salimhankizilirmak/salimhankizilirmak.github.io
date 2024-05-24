@@ -620,40 +620,40 @@ a {
     width: 200px;
     height: 150px;
 }
-.dialog {
+main {
 	clear: left;
 	padding: 0 20px 20px;
 	width: 1000px;
 	float: right;
 	padding-bottom: 20px;
 }
-.dialog h1 {
+main h1 {
 	color: #121212;
 	font-size: 250%;
 	padding: .5em 0 .25em;
 }
-.dialog h2 {
+main h2 {
 	font-size: 2rem;
 	padding-bottom: .25em;
 }
-.dialog p {
+main p {
 	padding-bottom: 2rem;
     font-size: 2rem;
 }
-.dialog blockquote {
+main blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
-.dialog ul {
+main ul {
 	padding: 0 0 1.5em 1.25em;
     font-size: 1.5rem;
 }
-.dialog li {
+main li {
 	padding-bottom: .35em;
     font-size: 1.5rem;
 }
 
-.dialog img {
+main img {
 	float: right;
     width: 225px;
 	margin: 1em 0 1em 1em;
