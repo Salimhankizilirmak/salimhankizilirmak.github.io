@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   function fetchSpeakerData(file) {
-    $.getJSON("json_files/" + file + ".json", function(data) {
+    $.getJSON("json_data/" + file + ".json", function(data) {
       
       $("main").empty();
 
