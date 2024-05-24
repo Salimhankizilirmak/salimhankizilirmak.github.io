@@ -11,13 +11,13 @@ $(document).ready(function() {
         var month = $("<h2>").html(speaker.month + "<br>" + speaker.speaker);
         var description = $("<p>").text(speaker.text);
 
-        $("main").append(title, image, month, description);
+        $(".dialog").append(title, image, month, description);
       });
     });
   }
 
   $("#nav_list a").click(function(e) {
-
+    e.preventDefault(); // Prevent default behavior of the anchor tags
 
     var title = $(this).attr("title");
 
