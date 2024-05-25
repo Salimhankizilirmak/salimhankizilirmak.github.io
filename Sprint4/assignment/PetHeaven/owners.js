@@ -4,7 +4,7 @@ $(document).ready(function() {
   function fetchSpeakerData(file) {
     $.getJSON("json_files/" + file + ".json", function(data) {
       // Clear the main content area
-      //$("main").empty();
+      $("main").empty();
 
       // Loop through each speaker in the JSON data and append their details to the main content area
       data.speakers.forEach(function(speaker) {
