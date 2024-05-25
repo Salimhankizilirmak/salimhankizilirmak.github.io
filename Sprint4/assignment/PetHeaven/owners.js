@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Function to fetch and display speaker data from a JSON file
   function fetchSpeakerData(file) {
-    $.getJSON("../json_files/" + file + ".json", function(data) {
+    $.getJSON("json_files/" + file + ".json", function(data) {
       // Clear the main content area
       $("main").empty();
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
       });
     }).fail(function() {
       // Error handling for the case when the JSON file cannot be loaded
-      $("main").empty().append("<p>Error loading speaker data. Please try again later.</p>");
+      $("main").empty().append("<p>Error loading speaker. Please try again later.</p>");
     });
   }
 
