@@ -509,7 +509,7 @@ a {
 
 /*! Social Media Start*/
 .events {
-width : 500px;	
+min-height:800px;	
 }
 .sosyalbutonlar3 {
     margin-top: 50px;
