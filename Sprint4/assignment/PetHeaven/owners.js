@@ -17,7 +17,7 @@ $(document).ready(function() {
       });
     }).fail(function() {
       // Error handling for the case when the JSON file cannot be loaded
-      $("main").empty().append("<p>Error loading speaker. Please try again later.</p>");
+      $("main").empty().append("<p>Error loading salo Please try again later.</p>");
     });
   }
 
