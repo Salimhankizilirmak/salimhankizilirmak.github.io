@@ -508,6 +508,9 @@ a {
 /*! About Us End*/
 
 /*! Social Media Start*/
+.events {
+width : 500px;	
+}
 .sosyalbutonlar3 {
     margin-top: 50px;
     display: center;
